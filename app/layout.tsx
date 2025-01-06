@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
 
-const inter = Inter({
-  variable: "--font-inter",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased font-[family-name:var(--font-inter)] flex flex-col min-h-screen lg:grid lg:grid-cols-[auto_3fr]`}
+        className={`${outfit.variable} antialiased font-[family-name:var(--font-outfit)] flex flex-col min-h-screen lg:grid lg:grid-cols-[auto_3fr]`}
       >
         <Nav />
         <main className="max-w-[1440px] mx-auto w-full h-full overflow-y-scroll text-md lg:text-lg transition-all">
