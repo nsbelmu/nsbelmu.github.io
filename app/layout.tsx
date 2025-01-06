@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -29,6 +30,7 @@ export default function RootLayout({
           {children}
         </main>
       </body>
+      <GoogleAnalytics gaId="G-9R1GSE284L" />
     </html>
   );
 }
