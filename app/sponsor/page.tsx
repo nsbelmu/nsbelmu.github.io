@@ -1,6 +1,6 @@
 const Sponsor = () => {
   return (
-    <div className="motion-opacity-in relative flex flex-col items-center justify-center h-screen p-2 lg:p-10">
+    <div className="motion-opacity-in relative flex flex-col items-center justify-center h-full p-2 lg:p-10">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSeBaskSa3yIptpj7cpkV65oTQOBnvY4MatGeAbcax2gbDHgiA/viewform?embedded=true"
         width="640"

@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="motion-opacity-in grid grid-rows-[auto_1fr] w-full h-screen">
+    <div className="motion-opacity-in grid grid-rows-[auto_1fr] w-full h-full">
       <div className="flex flex-col gap-2 p-10 pt-0 lg:pt-10 w-full">
         <p>
           Feel free to send us an email, or fill out our{" "}

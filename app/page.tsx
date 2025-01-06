@@ -33,7 +33,7 @@ export default function Home() {
           href="https://leo.lmu.edu/organization/national-society-of-black-engineers"
           className="p-1 w-48 bg-gradient-to-r from-lmucrimson via-lmublue to-lmucrimson bg-[size:200%] text-lmublue hover:bg-right hover:opacity-80 transition-all duration-500 text-center"
         >
-          <div className="p-1 text-white">Become a member</div>
+          <div className="p-1 text-white">Join on LEO</div>
         </Link>
         <Link
           href="/sponsor"
