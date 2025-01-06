@@ -34,6 +34,7 @@ export default function Home() {
           layout="responsive"
           width="1920"
           height="1080"
+          className="bg-gray-100"
         />
         <Image
           src="/images/nsbe-50.png"
@@ -41,6 +42,7 @@ export default function Home() {
           layout="responsive"
           width="1920"
           height="1080"
+          className="bg-gray-100"
         />
       </div>
       <CompanyCarousel />
