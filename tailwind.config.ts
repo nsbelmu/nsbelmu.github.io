@@ -59,7 +59,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 40s linear infinite",
+        "infinite-scroll": "infinite-scroll 60s linear infinite",
       },
       keyframes: {
         "infinite-scroll": {
