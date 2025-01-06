@@ -36,7 +36,7 @@ export default function Home() {
           <div className="p-1 text-white">Become a member</div>
         </Link>
         <Link
-          href="/contact"
+          href="/sponsor"
           className="p-1 w-48 bg-gradient-to-r from-lmucrimson via-lmublue to-lmucrimson bg-[size:200%] text-lmublue hover:bg-right hover:opacity-80 transition-all duration-500 text-center"
         >
           <div className="p-1 bg-background text-foreground">

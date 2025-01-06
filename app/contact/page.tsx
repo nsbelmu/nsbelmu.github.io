@@ -3,8 +3,14 @@ const Contact = () => {
     <div className="motion-opacity-in grid grid-rows-[auto_1fr] w-full h-screen">
       <div className="flex flex-col gap-2 p-10 pt-0 lg:pt-10 w-full">
         <p>
-          For sponsorships, partnerships, or general inquiries, send us an
-          email!
+          Feel free to send us an email, or fill out our{" "}
+          <a
+            href="/sponsor"
+            className="underline underline-offset-2 decoration-lmublue decoration-2"
+          >
+            sponsorship form
+          </a>
+          !
         </p>
         <a
           href="mailto:nsbelmu@gmail.com"
