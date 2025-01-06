@@ -19,10 +19,13 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <div className="sticky top-0 lg:h-screen flex flex-row lg:flex-col items-start lg:items-center py-8 px-10 md:py-10 gap-0 lg:gap-8 h-full bg-white">
+    <div className="sticky top-0 lg:h-screen flex flex-row lg:flex-col items-start lg:items-center py-8 px-10 md:py-10 gap-0 lg:gap-8 h-full bg-background">
       <Link href="/" className="flex mr-auto min-w-32">
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold transition-all">
-          🦁 NSBE <br /> at <span className="text-lmucrimson">LMU</span>
+          🦁 NSBE <br /> at{" "}
+          <span className="bg-gradient-to-r from-lmucrimson to-lmublue text-transparent bg-clip-text">
+            LMU
+          </span>
         </h1>
       </Link>
       <nav className="font-medium gap-4 grid grid-rows-2 grid-cols-3 lg:grid-cols-2 w-full gap-y-2">

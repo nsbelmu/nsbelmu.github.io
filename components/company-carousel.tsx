@@ -16,7 +16,7 @@ const CompanyCarousel = () => {
       <h2 className="text-sm text-gray-500 py-4">
         Many of our members have gone on to work at
       </h2>
-      <div className="flex infline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_64px,_black_calc(100%-100px),transparent_100%)]">
+      <div className="flex infline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_white_64px,_white_calc(100%-100px),transparent_100%)]">
         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none py-8 animate-infinite-scroll">
           {companies.map((company) => (
             <li key={company.name} className="mx-4">

@@ -11,7 +11,7 @@ const Contact = () => {
         </a>
       </div>
       <iframe
-        className="w-full h-full"
+        className="w-full h-full bg-gray-100"
         height="600"
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mbongi%20Spot+(Mbongi%20Spot)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>

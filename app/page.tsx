@@ -1,5 +1,6 @@
 import CompanyCarousel from "@/components/company-carousel";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -27,6 +28,24 @@ export default function Home() {
         and career opportunities. Together, we strive to empower members to
         achieve academic excellence and make a lasting impact.
       </p>
+      <div className="flex gap-4 py-2">
+        <Link
+          href="https://leo.lmu.edu/organization/national-society-of-black-engineers"
+          className="p-1 w-48 bg-gradient-to-r from-lmucrimson via-lmublue to-lmucrimson bg-[size:200%] text-lmublue hover:bg-right hover:opacity-80 transition-all duration-500 text-center"
+        >
+          <div className="p-1 text-white">Become a member</div>
+        </Link>
+        <Link
+          href="/contact"
+          className="p-1 w-48 bg-gradient-to-r from-lmucrimson via-lmublue to-lmucrimson bg-[size:200%] text-lmublue hover:bg-right hover:opacity-80 transition-all duration-500 text-center"
+        >
+          <div className="p-1 bg-background text-foreground">
+            <div className="bg-gradient-to-r from-lmucrimson via-lmublue to-lmucrimson bg-[size:200%] hover:bg-right text-transparent bg-clip-text">
+              Sponsor us
+            </div>
+          </div>
+        </Link>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Image
           src="/images/nsbe-49.png"
