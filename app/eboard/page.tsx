@@ -32,7 +32,7 @@ const members = [
   {
     name: "Tinbite Ermias",
     position: "Treasurer",
-    major: "Computer Engineering",
+    major: "Electrical Engineering",
     image: "/images/profiles/tinbite.jpeg",
     linkedInUrl: "https://www.linkedin.com/in/tinbite-ermias/",
   },
