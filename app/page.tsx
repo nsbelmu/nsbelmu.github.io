@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col p-10 gap-4 transition-all">
+    <div className="motion-opacity-in w-full h-full flex flex-col p-10 pt-0 lg:pt-10 gap-4 transition-all">
       <p>
         The Loyola Marymount University chapter of the National Society of Black
         Engineers (
@@ -53,7 +53,7 @@ export default function Home() {
           layout="responsive"
           width="1920"
           height="1080"
-          className="bg-gray-100"
+          className="motion-blur-in bg-gray-100"
         />
         <Image
           src="/images/nsbe-50.png"
@@ -61,7 +61,7 @@ export default function Home() {
           layout="responsive"
           width="1920"
           height="1080"
-          className="bg-gray-100"
+          className="motion-blur-in bg-gray-100"
         />
       </div>
       <CompanyCarousel />

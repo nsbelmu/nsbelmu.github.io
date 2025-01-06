@@ -65,10 +65,11 @@ const members = [
 
 const Eboard = () => {
   return (
-    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 p-10">
-      {members.map((member) => (
+    <div className="motion-opacity-in grid grid-cols-1 gap-8 sm:grid-cols-2 p-10 pt-0 lg:pt-10">
+      {members.map((member, index) => (
         <Profile
           key={member.name}
+          index={index}
           name={member.name}
           position={member.position}
           major={member.major}

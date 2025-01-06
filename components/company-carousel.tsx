@@ -23,7 +23,7 @@ const CompanyCarousel = () => {
               <img
                 src={company.logo}
                 alt={company.name}
-                className="max-w-[100px] max-h-[100px] object-contain"
+                className="motion-blur-in max-w-[100px] max-h-[100px] object-contain"
               />
             </li>
           ))}
