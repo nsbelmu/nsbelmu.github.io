@@ -73,13 +73,13 @@ body {
   }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #0076a5;
-}
+} */
 
 /* ::-webkit-scrollbar-thumb:hover {
   background: var(--lmublue);

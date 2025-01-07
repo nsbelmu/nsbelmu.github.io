@@ -20,7 +20,7 @@ const Contact = () => {
         </a>
       </div>
       <iframe
-        className="motion-blur-in motion-delay-300 w-full h-full bg-gray-100"
+        className="motion-blur-in motion-delay-300 w-full h-full bg-gray-100 rounded-tr-3xl rounded-tl-3xl lg:rounded-tr-none"
         height="600"
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mbongi%20Spot+(Mbongi%20Spot)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>

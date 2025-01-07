@@ -23,7 +23,7 @@ const Nav = () => {
       <Link href="/" className="flex mr-auto min-w-32">
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold transition-all">
           🦁 NSBE <br /> at{" "}
-          <span className="bg-gradient-to-r from-lmucrimson to-lmublue text-transparent bg-clip-text">
+          <span className="font-black bg-gradient-to-r from-lmucrimson to-lmublue text-transparent bg-clip-text">
             LMU
           </span>
         </h1>
